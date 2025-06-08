@@ -13,11 +13,7 @@ while others were later published in the book Big Computer Games.
 
 This is a work in progress...
 
-⬜️ : Eligible
-
-⌨ : Work in progress
-
-✅ : Finished and working
+✅ : Eligible
 
 ❌ : ineligible
 
@@ -28,16 +24,16 @@ Simulations for Social Studies
 
 | Game | Where | Choice | 
 |------|-------|--------| 
-| Hammurabi | Basic Computer Games | 
-| King | Basic Computer Games | 
-| Dukedom | Big Computer Games | 
-| Civil War | Basic Computer Games | 
-| Fur Trader | Basic Computer Games | 
+| Hammurabi | Basic Computer Games | ✅ |
+| King | Basic Computer Games | ✅ |
+| Dukedom | Big Computer Games | ✅ |
+| Civil War | Basic Computer Games | ✅ |
+| Fur Trader | Basic Computer Games | ✅ |
 | Oregon Trail | Computers In Science And Social Studies | 
-| Lost & Forgotten Island | Big Computer Games | 
+| Lost & Forgotten Island | Big Computer Games | ✅ |
 | World Model | Computers In Science And Social Studies | 
 | A Social Science Survey Program | Computers In Science And Social Studies | 
-| Star Merchant | Big Computer Games | 
+| Star Merchant | Big Computer Games | ✅ |
 | Widget | Computers In Science And Social Studies | 
 | Oil Compagny | Computers In Science And Social Studies | 
 | The Electric Compagny | Computers In Science And Social Studies | 
@@ -55,16 +51,16 @@ Ecology and Biology
 | Game | Where | Choice | 
 |------|-------|--------| 
 | Niche | Computers In Science And Social Studies | 
-| Odell 2 | 
-| Swarms | 
-| Genetic Calculation | 
-| Codon (TRS-80) | 
-| Problem Solving | 
-| Genopool | 
-| Wasps | 
-| Guess my animal (animal new version) | 
-| Game of life | 
-| A Faster life | 
+| Odell 2 | Computers In Science And Social Studies | 
+| Swarms | Computers In Science And Social Studies | 
+| Genetic Calculation | Computers In Science And Social Studies | 
+| Codon (TRS-80) | Computers In Science And Social Studies | 
+| Problem Solving | Computers In Science And Social Studies | 
+| Genopool | Computers In Science And Social Studies | 
+| Wasps | Computers In Science And Social Studies | 
+| Guess my animal (animal new version) | Computers In Science And Social Studies | 
+| Game of life | Computers In Science And Social Studies | 
+| A Faster life | Computers In Science And Social Studies | 
 
 ### Chapter 3
 
@@ -72,9 +68,9 @@ Health and Psychology
 
 | Game | Where | Choice | 
 |------|-------|--------| 
-| Smokers | 
-| Life Expectancy | 
-| Building a Mouse (IA) |
+| Smokers | Computers In Science And Social Studies | 
+| Life Expectancy | Computers In Science And Social Studies | 
+| Building a Mouse (IA) | Computers In Science And Social Studies | 
 
 
 ### Chapter 4
@@ -83,13 +79,13 @@ Physics
 
 | Game | Where | Choice | 
 |------|-------|--------| 
-| Gunner | 
-| Kinema | 
-| Lunar | 
-| Drag | 
-| Landing Simulator | 
-| Zeno's Spaceship | 
-| Planet of the Double Sun | 
+| Gunner | Computers In Science And Social Studies | 
+| Kinema | Computers In Science And Social Studies | 
+| Lunar | Computers In Science And Social Studies | 
+| Drag | Computers In Science And Social Studies | 
+| Landing Simulator | Computers In Science And Social Studies | 
+| Zeno's Spaceship | Computers In Science And Social Studies | 
+| Planet of the Double Sun | Computers In Science And Social Studies | 
 
 
 ### Chapter 5
@@ -98,10 +94,7 @@ Chemistry
 
 | Game | Where | Choice | 
 |------|-------|--------| 
-| Inorganic Chemistry Program | 
-| Demonstrating the Gas Laws | 
-| Periodic Table | 
-
-
-
+| Inorganic Chemistry Program | Computers In Science And Social Studies | 
+| Demonstrating the Gas Laws | Computers In Science And Social Studies | 
+| Periodic Table | Computers In Science And Social Studies | 
 
