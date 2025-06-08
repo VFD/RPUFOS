@@ -296,7 +296,7 @@
 2940 PRINT "to visit each month, how many days you wish to spend in the"
 2950 PRINT "states you visit, and whether the visit is for campaigning"
 2960 PRINT "(which wins popular votes) or fundraising (which wins no"
-2970 PRINT "popular votes but brings in contributions to meet expenses
+2970 PRINT "popular votes but brings in contributions to meet expenses"
 2980 PRINT "and finance campaign activities in other states).  The money"
 2990 PRINT "that is in the campaign treasury can be spent as you wish in"
 3000 PRINT "any state."
@@ -338,4 +338,3 @@
 3370 PRINT "commas between number digits.":PRINT:LINE INPUT "Press <ENTER> to begin the campaign";Z$:CLS
 3380 RETURN
 4000 RANDOMIZE(VAL(RIGHT$(TIME$,2))):RETURN
-

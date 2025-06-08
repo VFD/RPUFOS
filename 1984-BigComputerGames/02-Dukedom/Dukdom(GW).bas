@@ -242,4 +242,3 @@
 2420 DATA "Fruits of war","Crop yield","Castle expense","Royal tax"
 2430 PRINT "Do you wish to play again? ";:GOSUB 210:IF V$="Y" OR V$="y" THEN 510 ELSE END
 2440 RANDOMIZE(VAL(RIGHT$(TIME$,2))):RETURN
-
