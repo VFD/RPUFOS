@@ -12,10 +12,15 @@ YOU TUBE: [PHC-25, Olipix](https://youtu.be/B97-ilAeYUk?feature=shared)
 
 ### Documentations
 
-All here.
-
+[All here](./Documents)
 And my compilation for the BASIC in RTF and PDF. Work in progress.
 
+
+
+### A starting point
+
+With the "Start.bas".\
+This is a work in progress.
 
 ### Internet
 
