@@ -14,7 +14,7 @@
 ## Table
 
 
-| Game                                          | Alice | Aquarius | Hector | PHC_25 | VG5000 |
+| Game                                          | Alice | Aquarius | Hector | PHC-25 | VG5000 |
 | ----------------------------------------------|-------|----------|--------|--------|--------| 
 | [01 - Acey_Ducey](./01_Acey_Ducey)              | ⬜️   | ⬜️       | ⬜️      | ✅     | ⬜️     |
 | [02 - Amazing](./02_Amazing)                     | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
