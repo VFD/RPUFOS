@@ -99,7 +99,7 @@
 | [81 - Splat](./81_Splat)                         | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
 | [82 - Stars](./82_Stars)                         | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
 | [83 - Stock Market](./83_Stock_Market)             | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
-| [84 - Super Star Trek](./84_Super_Star_Trek)         | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
+| [84 - Super Star Trek](./84_Super_Star_Trek)         | ⬜️   | ⬜️       | ⬜️      | ⌨     | ⬜️     | 
 | [85 - Synonym](./85_Synonym)                     | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
 | [86 - Target](./86_Target)                       | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
 | [87 - 3D Plot](./87_3D_Plot)                       | ⬜️   | ⬜️       | ⬜️      | ⬜️     | ⬜️     | 
