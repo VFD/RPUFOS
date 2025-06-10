@@ -459,7 +459,7 @@ More Basic Computer Games.
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
 	</tr>
 	<tr>
-		<td><a href="./48_Masterbagels">Masterbagels</a></td>
+		<td><a href="./48_Mastermind">Mastermind</a></td>
 		<!-- B           R   -->
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
@@ -468,7 +468,7 @@ More Basic Computer Games.
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
 	</tr>
 	<tr>
-		<td><a href="./49_Mastermind">Mastermind</a></td>
+		<td><a href="./49_Masterbagels">Masterbagels</a></td>
 		<!-- B           R   -->
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
@@ -711,7 +711,7 @@ More Basic Computer Games.
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
 	</tr>
 	<tr>
-		<td><a href="./76_Tvplot">Tvplot</a></td>
+		<td><a href="./76_TVplot">TV Plot</a></td>
 		<!-- B           R   -->
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
@@ -738,7 +738,7 @@ More Basic Computer Games.
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
 	</tr>
 	<tr>
-		<td><a href="./79_Ufo">Ufo</a></td>
+		<td><a href="./79_Ufo">UFO</a></td>
 		<!-- B           R   -->
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
@@ -747,7 +747,7 @@ More Basic Computer Games.
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
 	</tr>
 	<tr>
-		<td><a href="./80_UnderOrOver">UnderOrOver</a></td>
+		<td><a href="./80_UnderAndOver">Under and Over</a></td>
 		<!-- B           R   -->
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
