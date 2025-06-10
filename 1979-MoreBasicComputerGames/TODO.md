@@ -1,5 +1,7 @@
 # Porting BASIC to Obscure Systems
 
+More Basic Computer Games.
+
 ## Status
 
 ⬜️ : To do
@@ -12,94 +14,794 @@
 
 ## Table
 
-| Game                                          | Alice | Aquarius | Hector | PHC-25 | VG5000 |
-| ----------------------------------------------|-------|----------|--------|--------|--------| 
-| [01 Artillery3](./01_Artillery3) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [02 Baccarat](./02_Baccarat) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [03 Biblequiz](./03_Biblequiz) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [04 Big6](./04_Big6) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [05 Binary](./05_Binary) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [06 Blackbox](./06_Blackbox) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [07 Bobstones](./07_Bobstones) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [08 Bocce](./08_Bocce) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [09 Boga2](./09_Boga2) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [10 Bombrun](./10_Bombrun) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [11 BridgeIt](./11_BridgeIt) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [12 Camel](./12_Camel) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [13 Chase](./13_Chase) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [14 ChuckALuck](./14_ChuckALuck) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [15 CloseEncounters](./15_CloseEncounters) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [16 Column](./16_Column) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [17 Concentration](./17_Concentration) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [18 Condot](./18_Condot) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [19 Convoy](./19_Convoy) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [20 Corral](./20_Corral) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [21 Countdown](./21_Countdown) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [22 Cup](./22_Cup) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [23 Dealerx5](./23_Dealerx5) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [24 Deepspace](./24_Deepspace) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [25 Defuse](./25_Defuse) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [26 Dodgem](./26_Dodgem) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [27 Doors](./27_Doors) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [28 Drag](./28_Drag) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [29 DrZ](./29_DrZ) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [30 Eliza](./30_Eliza) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [31 Father](./31_Father) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [32 Flip](./32_Flip) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [33 Fourinarow](./33_Fourinarow) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [34 Geowar](./34_Geowar) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [35 Grnprx](./35_Grnprx) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [36 GuessIt](./36_GuessIt) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [37 Icbm](./37_Icbm) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [38 Inkblot](./38_Inkblot) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [39 Joust](./39_Joust) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [40 Jumpingballs](./40_Jumpingballs) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [41 Keno](./41_Keno) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [42 L-game](./42_L-game) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [43 LifeExpectancy](./43_LifeExpectancy) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [44 Lissajous](./44_Lissajous) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [45 MagicSquare](./45_MagicSquare) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [46 ManEatingRabbit](./46_ManEatingRabbit) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [47 Maneuvers](./47_Maneuvers) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [48 Masterbagels](./48_Masterbagels) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [49 Mastermind](./49_Mastermind) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [50 Matpuzzle](./50_Matpuzzle) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [51 Maze](./51_Maze) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [52 Millionaire](./52_Millionaire) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [53 Minotaur](./53_Minotaur) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [54 Motorcyclejump](./54_Motorcyclejump) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [55 Nomad](./55_Nomad) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [56 Notone](./56_Notone) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [57 Obstacle](./57_Obstacle) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [58 Octrix](./58_Octrix) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [59 Pasart](./59_Pasart) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [60 Pasart2](./60_Pasart2) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [61 Pinball](./61_Pinball) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [62 Rabbit-chase](./62_Rabbit-chase) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [63 Roadrace](./63_Roadrace) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [64 Rotate](./64_Rotate) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [65 Safe](./65_Safe) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [66 Scales](./66_Scales) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [67 Schmoo](./67_Schmoo) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [68 Seabattle](./68_Seabattle) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [69 Seawar](./69_Seawar) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [70 Shoot](./70_Shoot) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [71 Smash](./71_Smash) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [72 Strike9](./72_Strike9) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [73 Tennis](./73_Tennis) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [74 Tickertape](./74_Tickertape) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [75 Tickertapecrt](./75_Tickertapecrt) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [76 Tvplot](./76_Tvplot) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [77 Twonky](./77_Twonky) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [78 TwoToTen](./78_TwoToTen) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [79 Ufo](./79_Ufo) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [80 UnderOrOver](./80_UnderOrOver) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [81 Vangam](./81_Vangam) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [82 Warfish](./82_Warfish) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [83 WordSearchPuzzle](./83_WordSearchPuzzle) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [84 Wumpus](./84_Wumpus) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
-| [85 Wumpus2](./85_Wumpus2) | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️ |
+<table>
+	<tr>
+        <th rowspan="2" style="text-align: center;">Game</th>
+        <th colspan="2" style="text-align: center;">Alice</th>
+        <th colspan="2" style="text-align: center;">Aquarius</th>
+        <th colspan="2" style="text-align: center;">Hector</th>
+        <th colspan="2" style="text-align: center;">PHC-25</th>
+        <th colspan="2" style="text-align: center;">VG5000</th>
+	</tr>
+	<tr>
+        <th style="text-align: center;">B</th>
+        <th style="text-align: center;">R</th>
+        <th style="text-align: center;">B</th>
+        <th style="text-align: center;">R</th>
+        <th style="text-align: center;">B</th>
+        <th style="text-align: center;">R</th>
+        <th style="text-align: center;">B</th>
+        <th style="text-align: center;">R</th>
+        <th style="text-align: center;">B</th>
+        <th style="text-align: center;">R</th>
+	</tr>
+	<tr>
+		<td><a href="./01_Artillery3">Artillery3</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./02_Baccarat">Baccarat</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./03_Biblequiz">Biblequiz</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./04_Big6">Big6</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./05_Binary">Binary</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./06_Blackbox">Blackbox</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./07_Bobstones">Bobstones</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./08_Bocce">Bocce</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./09_Boga2">Boga2</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./10_Bombrun">Bombrun</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./11_BridgeIt">BridgeIt</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./12_Camel">Camel</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./13_Chase">Chase</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./14_ChuckALuck">ChuckALuck</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./15_CloseEncounters">CloseEncounters</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./16_Column">Column</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./17_Concentration">Concentration</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./18_Condot">Condot</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./19_Convoy">Convoy</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./20_Corral">Corral</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./21_Countdown">Countdown</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./22_Cup">Cup</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./23_Dealerx5">Dealerx5</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./24_Deepspace">Deepspace</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./25_Defuse">Defuse</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./26_Dodgem">Dodgem</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./27_Doors">Doors</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./28_Drag">Drag</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./29_DrZ">DrZ</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./30_Eliza">Eliza</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./31_Father">Father</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./32_Flip">Flip</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./33_Fourinarow">Fourinarow</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./34_Geowar">Geowar</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./35_Grnprx">Grnprx</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./36_GuessIt">GuessIt</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./37_Icbm">Icbm</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./38_Inkblot">Inkblot</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./39_Joust">Joust</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./40_Jumpingballs">Jumpingballs</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./41_Keno">Keno</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./42_L-game">L-game</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./43_LifeExpectancy">LifeExpectancy</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./44_Lissajous">Lissajous</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./45_MagicSquare">MagicSquare</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./46_ManEatingRabbit">ManEatingRabbit</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./47_Maneuvers">Maneuvers</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./48_Masterbagels">Masterbagels</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./49_Mastermind">Mastermind</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./50_Matpuzzle">Matpuzzle</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./51_Maze">Maze</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./52_Millionaire">Millionaire</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./53_Minotaur">Minotaur</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./54_Motorcyclejump">Motorcyclejump</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./55_Nomad">Nomad</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./56_Notone">Notone</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./57_Obstacle">Obstacle</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./58_Octrix">Octrix</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./59_Pasart">Pasart</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./60_Pasart2">Pasart2</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./61_Pinball">Pinball</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./62_Rabbit-chase">Rabbit-chase</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./63_Roadrace">Roadrace</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./64_Rotate">Rotate</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./65_Safe">Safe</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./66_Scales">Scales</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./67_Schmoo">Schmoo</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./68_Seabattle">Seabattle</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./69_Seawar">Seawar</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./70_Shoot">Shoot</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./71_Smash">Smash</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./72_Strike9">Strike9</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./73_Tennis">Tennis</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./74_Tickertape">Tickertape</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./75_Tickertapecrt">Tickertapecrt</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./76_Tvplot">Tvplot</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./77_Twonky">Twonky</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./78_TwoToTen">TwoToTen</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./79_Ufo">Ufo</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./80_UnderOrOver">UnderOrOver</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./81_Vangam">Vangam</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./82_Warfish">Warfish</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./83_WordSearchPuzzle">WordSearchPuzzle</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./84_Wumpus">Wumpus</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+	<tr>
+		<td><a href="./85_Wumpus2">Wumpus2</a></td>
+		<!-- B           R   -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
+        <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
+        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
+	</tr>
+</table>
 
 
-
+eof
 ___
