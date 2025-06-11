@@ -6,7 +6,7 @@
 
 ⌨ : Work in progress.
 
-✅ : Finished and working.
+✅ : Finished and working. May require a few additional adjustments.
 
 ❌ : Failed. Need debug and retry. See Report.
 
@@ -82,7 +82,7 @@
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
         <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
-        <td>❎</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>❎</td> <td>✅</td> <!-- PHC-25 -->
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
     </tr>
 	<tr>
@@ -109,7 +109,7 @@
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
         <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
-        <td>❎</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>❎</td> <td>✅</td> <!-- PHC-25 -->
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
     </tr>
 	<tr>
@@ -937,7 +937,7 @@
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
         <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
-        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>❎</td> <td>✅</td> <!-- PHC-25 -->
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
     </tr>
 	<tr>
@@ -946,7 +946,7 @@
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
         <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
-        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>❎</td> <td>✅</td> <!-- PHC-25 -->
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
     </tr>
 	<tr>
