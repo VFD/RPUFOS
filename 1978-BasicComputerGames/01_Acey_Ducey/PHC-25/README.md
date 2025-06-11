@@ -1,12 +1,17 @@
 # Acey Ducey for SANYO PHC-25
 
-# FIX
+## Original
+
+Several changes to make it work on the PHC-25.
 
 * Random number
 * Randomize
 * Key stroke
 
-# Tongue
+## Remake
+
+* Mode Screen 1.
+* Add Graphics.
 
 * English (original)
 * French
