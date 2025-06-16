@@ -9,3 +9,11 @@ Not sure to USE "...[BAS]".\
 Because in BASIC source some characters are not compatible with actual system.\
 ASCII Table of PHC-25 incompatibilities.
 
+## Building DAT
+
+/!\ Work in progress /!\
+
+## New repository?
+
+Possible new repository for all.\
+Possible use of another plateforme.
