@@ -352,7 +352,7 @@
         <td>⬜️</td> <td>⬜️</td> <!-- Alice -->
         <td>⬜️</td> <td>⬜️</td> <!-- Aquarius -->
         <td>⬜️</td> <td>⬜️</td> <!-- Hector -->
-        <td>⬜️</td> <td>⬜️</td> <!-- PHC-25 -->
+        <td>❎</td> <td>✅</td> <!-- PHC-25 -->
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
     </tr>
 	<tr>
