@@ -6,13 +6,16 @@ The source files are named according to the TOSEC naming convention.
 
 ## Status
 
-⬜️ : To do
-
-⌨ : Work in progress
-
-✅ : Finished and working
-
-❌ : Failed
+| Icon | Label          |
+|------|----------------|
+| ⬜️   | To do         |
+| ⌨  | Work in progress  |
+| ✅ | Finished and working |
+| ❌ | Failed |
+| ❕ | Source code review to be done |
+| 📝 | Source code to be found or entered |
+| ✘ | No need to adapt. The source code is self-sufficient |
+| ★☆ | Rating |
 
 2 values in each column.\
 1st: (B)rute force basic conversion. No changes to the code.\

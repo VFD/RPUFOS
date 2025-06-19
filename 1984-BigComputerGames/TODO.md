@@ -2,26 +2,23 @@
 
 ## Status
 
-⬜️ : To do
-
-⌨ : Work in progress
-
-✅ : Finished and working
-
-❌ : Failed
-
-❕: Source code review to be done.
-
-📝 : Source code to be found or entered.
-
-✘ : No need to adapt. The source code is self-sufficient.
+| Icon | Label          |
+|------|----------------|
+| ⬜️   | To do         |
+| ⌨  | Work in progress  |
+| ✅ | Finished and working |
+| ❌ | Failed |
+| ❕ | Source code review to be done |
+| 📝 | Source code to be found or entered |
+| ✘ | No need to adapt. The source code is self-sufficient |
+| ★☆ | Rating |
 
 2 values in each column.\
 1st: (B)rute force basic conversion. No changes to the code.\
 2nd: (R)emake with corrections.
 
+___
 ## Table
-
 
 <table>
     <tr>

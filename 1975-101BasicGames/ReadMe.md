@@ -15,11 +15,26 @@ Most of these programs were included in the 1978 edition.
 
 The 1978 versions are more accurate
 
-Notation with ★☆.
+Need to change table.
 
+| Icon | Label          |
+|------|----------------|
+| ⬜️   | To do         |
+| ⌨  | Work in progress  |
+| ✅ | Finished and working |
+| ❌ | Failed |
+| ❕ | Source code review to be done |
+| 📝 | Source code to be found or entered |
+| ✘ | No need to adapt. The source code is self-sufficient |
+| ★☆ | Rating |
 
 TO DO: insert URL... "../1978-BasicComputerGames/..."\
 Check links to games...
+
+
+___
+
+List of games.
 
 
 | Num | I | Games       |                                                          | ★☆ |
@@ -134,7 +149,8 @@ Check links to games...
 | 108 | ❎ | [ZOOP]()    | BASIC programmer's nightmare |  |
 
 
-TO DO
+___
+TO DO, Add type.
 
 Number or Letter Guessing\
 GUESS\
