@@ -4,15 +4,18 @@
 ___
 ## Introduction
 
-The consolidation into a single file is being evaluated in order to streamline access and provide all content on one page.
-
+The consolidation into a single file is being evaluated in order to streamline access and provide all content on one page.\
+The unified file format seems more appropriate
 
 ___
 ## Work in progress
 
 Each release includes a reference table.
 
+___
 ### Status
+
+The current state of each program's porting process is indicated by the icons shown in the following table.
 
 | Icon | Label          |
 |------|----------------|
@@ -20,19 +23,22 @@ Each release includes a reference table.
 | ⌨ | Work in progress  |
 | ✅ | Finished and working |
 | ❌ | Failed |
-| ❕ | Source code review to be done |
+| ❕ |The source code should be cross-checked with the published version |
 | 📝 | Source code to be found or entered |
 | ✘ | No need to adapt. The source code is self-sufficient |
-| ★☆ | Rating |
+| ★☆ | Rating (Algorithm, Interest, Gameplay) |
 
-/!\ TO DO links...
 
+Need to rate before coding.
+
+___
 ### 1975 - 101 Basic Games (❕📝)
 
 [README](1975-101BasicGames/ReadMe.md)
 
 TO DO.
 
+___
 ### 1978 - Basic Computer Games (Microcomputer)
 
 [README](1978-BasicComputerGames/README.md)
@@ -1112,11 +1118,13 @@ TO DO.
 </table>
 
 
+___
 ### 1979 - Computers in Mathematics (❕📝)
 
 [README](1979-ComputersInMathematics/README.md)
 
 
+___
 ### 1979 - More Basic Computer Games
 
 [README](1979-MoreBasicComputerGames/README.md)
@@ -1996,18 +2004,16 @@ TO DO.
 	</tr>
 </table>
 
-
+___
 ### 1983 - Computers in Science and Social Studies (❕📝)
 
 [README](1983-ComputersInScienceAndSocialStudies/README.md)
 
 
-
+___
 ### 1984 - Big Computer Games
 
 [README](1984-BigComputerGames/README.md)
-
-
 
 <table>
     <tr>
@@ -2163,7 +2169,7 @@ TO DO.
     </tr>
 </table>
 
-
+___
 ### 1986 - Basic Computer Adventure Games
 
 [README](1986-BasicComputerAdventureGames/README.md)
@@ -2291,4 +2297,7 @@ TO DO.
         <td>⬜️</td> <td>⬜️</td> <!-- VG5000 -->
     </tr>
 </table>
+
+
+eof
 ___
