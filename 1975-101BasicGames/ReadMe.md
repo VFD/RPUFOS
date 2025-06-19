@@ -15,20 +15,20 @@ Most of these programs were included in the 1978 edition.
 
 The 1978 versions are more accurate
 
-TO DO: insert URL...
+TO DO: insert URL... "../1978-BasicComputerGames/..."
 
 |   | Games       |                                                          |
 |---|-------------|----------------------------------------------------------|
-| ✅ | [ACEYDU]()  | Play acey-ducey with the computer
-| ✅ | [AMAZIN]()  | Computer constructs 'a maze
-| ✅ | [ANIMAL]()  | Computer guesses animals and learns new ones from you
-| ✅ | [AWARI]()   | Ancient game of rotating beans in pits
-| ✅ | [BAGLES]()  | Guess a mystery 3-digit number by logic
-| ✅ | [BANNER]()  | Prints any message on a large banner
-| ✅ | [BASBAL]()  | Baseball game
-| ✅ | [BASKET]()  | Basketball game
-| ✅ | [BATNUM]()  | Match wits in a battle of numbers vs. the computer
-| ✅ | [BATTLE]()  | Decode a matrix to locate enemy battleship
+| ✅ | [ACEYDU](../1978-BasicComputerGames/)  | Play acey-ducey with the computer
+| ✅ | [AMAZIN](../1978-BasicComputerGames/)  | Computer constructs 'a maze
+| ✅ | [ANIMAL](../1978-BasicComputerGames/)  | Computer guesses animals and learns new ones from you
+| ✅ | [AWARI](../1978-BasicComputerGames/)   | Ancient game of rotating beans in pits
+| ✅ | [BAGLES](../1978-BasicComputerGames/)  | Guess a mystery 3-digit number by logic
+| ✅ | [BANNER](../1978-BasicComputerGames/)  | Prints any message on a large banner
+| ✅ | [BASBAL](../1978-BasicComputerGames/)  | Baseball game
+| ✅ | [BASKET](../1978-BasicComputerGames/)  | Basketball game
+| ✅ | [BATNUM](../1978-BasicComputerGames/)  | Match wits in a battle of numbers vs. the computer
+| ✅ | [BATTLE](../1978-BasicComputerGames/)  | Decode a matrix to locate enemy battleship
 |  | [BINGO]()   | Computer prints your card and calls the numbers
 |  | [BLKJAC]()  | Blackjack (very comprehensive), Las Vegas rules
 |  | [BLKJAK]()  | Blackjack (standard game)
