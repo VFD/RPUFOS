@@ -131,3 +131,152 @@ TO DO: insert URL... "../1978-BasicComputerGames/..."
 | 107 | ❎ | [YAHTZE]()  | Dice game of Yahtzee |  |
 | 108 | ❎ | [ZOOP]()    | BASIC programmer's nightmare |  |
 
+
+TO DO
+
+Number or Letter Guessing\
+GUESS\
+HI-LO\
+LETTER\
+'l'RAP\
+STARS
+
+Piles of Objects\
+23MTCH\
+BATNUM\
+EVEN\
+NIM\
+
+Matrix\
+BATTLE\
+HURKLE\
+MUGWMP\
+PIZZA\
+SALVO\
+SALVO 1
+
+Cybernetics (Artificial Intelligence)\
+ANIMAL\
+DIGITS\
+EVEN 1\
+HEX
+
+Land Management,Government,' History\
+CIVILW\
+FURS\
+HMRAnI\
+KING\
+STOC
+
+Plotting\
+BOUNCE\
+BUNNY\
+DIAMND\
+SNOOPY (2)\
+3 DPLOT\
+UGLY
+
+Logic\
+AWARI\
+BAGLES\
+BULCOW\
+CHOMP\
+CUBE\
+FIPFOP'\
+HI-Q\
+lCHECK\
+QUBIC\
+QUEEN\
+REVRSE\
+TICTAC\
+TOWER
+
+Casino, Gambling,Betting\
+BINGO\
+BLKJAK, BLKJAC\
+CRAPS\
+DOGS\
+HORSES\
+POKER\
+ROULET\
+SLOTS
+
+Card and Board\
+ACEYDU\
+CHECKR\
+GOMOKO\
+MNOPLY\
+WAR\
+YAHTZE
+
+Sports\
+BASBAL\
+BASKET\
+BOWL\
+BOXING\
+BULEYE\
+CANAM\
+FOOTBL, FOTBAL\
+GOLF\
+HOCKEY
+
+
+Space\
+ORBIT\
+ROCKET, ROCKT1, ROCKT2\
+SPACWR\
+TARGET\
+
+CAl, Quiz\
+CHEMST\
+CHIEF\
+HELLO\
+KINEMA\
+LITQZ\
+MATHDI\
+TRAIN
+
+War\
+BOAT\
+BOMBER\
+GUNNER, GUNERl
+
+Word\
+BUZZWD\
+HANG\
+SYNONM\
+WORD
+
+Dates\
+CALNDR\
+WEKDAY
+
+Miscellaneous\
+AMAZIN\
+BUG\
+BULL\
+CHANGE\
+DICELIFE\
+LIFE-2"\
+NUMBER\
+POETRY, POET\
+ROCKSP\
+RUSROU\
+SPLAT\
+ZOOP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
