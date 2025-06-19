@@ -22,8 +22,11 @@ See their YouTube video channel.\
 This GitHub project is solely dedicated to adapting the compilations created by David H. Ahl.\
 Published in the books:
 
+* 101 Basic Games (DEC)(1975), Applicable only to those excluded from the 1978 edition and beyond
 * Basic Computer Games (1978)
 * More Basic Computer Games (1979)
+* Computer in Mathematics (1979)
+* COmputer in Science and Social Studies (1983)
 * Big Computer Games (1984) (Orwell is here)
 * Basic Computer Adventure Games (1986)
 
