@@ -1,0 +1,150 @@
+10 REM -------------------------
+20 REM Math Dice
+30 REM 
+40 REM David H. AHL
+50 REM -------------------------
+60 REM Retro Programers United
+70 REM For Obscure Systems
+80 REM VincentD
+90 REM -------------------------
+1000 REM ------------------
+1010 REM START PROGRAM HERE
+1020 REM ------------------
+1030 GOSUB 9030: REM Title
+1040 GOSUB 9730: REM Instruction?
+1050 GOSUB 9130: REM First dices
+1060 REM Turn
+1070 T=D1+D2: REM PRINT D1;" ";D2
+1080 INPUT "  =";R
+1090 IF R=T THEN PRINT "Right!": GOTO 1140
+1100 PRINT"No! Count the spots and give    another answer."
+1110 INPUT "  =";R
+1120 IF R=T THEN PRINT "Right!": GOTO 1140
+1130 PRINT "No, the answer is";T;"."
+1140 PRINT"Press a key to roll the dice."
+1150 GOSUB 9930
+1160 GOSUB 9160: REM Next dices
+1170 GOTO 1070
+7000 REM ----
+7010 REM Dice
+7020 REM ----
+7030 I=RND(-TIME)     : REM Randomize
+7040 D=INT(RND(1)*6+1): REM 1 to 6
+7050 ON D GOTO 7060,7070,7080,7090,7100,7110
+7060 RESTORE 7240:GOTO 7120: REM 1
+7070 RESTORE 7300:GOTO 7120: REM 2
+7080 RESTORE 7360:GOTO 7120: REM 3
+7090 RESTORE 7420:GOTO 7120: REM 4
+7100 RESTORE 7480:GOTO 7120: REM 5
+7110 RESTORE 7540:GOTO 7120: REM 6
+7120 REM 
+7130 FOR i=0 to 32*4 STEP 32
+7140   FOR J=1 TO 5
+7150     READ R$
+7160     POKE A+I+J,VAL("&h"+R$)
+7170   NEXT J
+7180 NEXT I
+7190 RETURN
+7200 REM ---------
+7210 REM Dice Data
+7220 REM ---------
+7230 REM  -1-
+7240 DATA 18,17,17,17,19
+7250 DATA 16,20,20,20,16
+7260 DATA 16,20,85,20,16
+7270 DATA 16,20,20,20,16
+7280 DATA 1A,17,17,17,1B
+7290 REM  -2-
+7300 DATA 18,17,17,17,19
+7310 DATA 16,20,20,85,16
+7320 DATA 16,20,20,20,16
+7330 DATA 16,85,20,20,16
+7340 DATA 1A,17,17,17,1B
+7350 REM  -3-
+7360 DATA 18,17,17,17,19
+7370 DATA 16,85,20,20,16
+7380 DATA 16,20,85,20,16
+7390 DATA 16,20,20,85,16
+7400 DATA 1A,17,17,17,1B
+7410 REM  -4-
+7420 DATA 18,17,17,17,19
+7430 DATA 16,85,20,85,16
+7440 DATA 16,20,20,00,16
+7450 DATA 16,85,20,85,16
+7460 DATA 1A,17,17,17,1B
+7470 REM  -5-
+7480 DATA 18,17,17,17,19
+7490 DATA 16,85,20,85,16
+7500 DATA 16,20,85,20,16
+7510 DATA 16,85,20,85,16
+7520 DATA 1A,17,17,17,1B
+7530 REM  -6-
+7540 DATA 18,17,17,17,19
+7550 DATA 16,85,20,85,16
+7560 DATA 16,85,20,85,16
+7570 DATA 16,85,20,85,16
+7580 DATA 1A,17,17,17,1B
+7590 REM  --------------
+8000 REM -----------------
+8010 REM Informations here
+8020 REM -----------------
+8030 CLS
+8040 PRINT
+8050 PRINT"This program generates succes-"
+8060 PRINT"sive pictures of two dice."
+8070 PRINT
+8080 PRINT"When two dice and an equal sign"
+8090 PRINT"followed by a question mark have";
+8100 PRINT"been printed, type your answer"
+8110 PRINT"and the return key."
+8120 PRINT"to conclude the lesson, type"
+8130 PRINT"control-c as your answer."
+8140 PRINT
+8150 PRINT"Press a key to continu."
+8160 GOSUB 9930
+8170 RETURN
+9000 REM ------------------
+9010 REM Screen Preparation
+9020 REM ------------------
+9030 SCREEN 1,1,1:CLS
+9040 COLOR 2,,1:CONSOLE 0,3:CLS
+9050 PRINT TAB(11);"MATH  DICE"
+9060 PRINT TAB(7);"Creative Computing"
+9070 PRINT TAB(5);"Morristown, New Jersey";
+9080 COLOR 1,,1:CONSOLE 3,13:CLS
+9090 RETURN
+9100 REM -----------------------
+9110 REM Screen GAME REM 2 cubes
+9120 REM -----------------------
+9130 CONSOLE 3,13:CLS
+9140 LOCATE 7,4:PRINT"Die 1"
+9150 LOCATE 21,4:PRINT"Die 2" 
+9160 A=&H60C6 :GOSUB 7030: D1=D
+9170 A=&H60D4 :GOSUB 7030: D2=D
+9180 CONSOLE 12,4:CLS
+9190 RETURN
+9700 REM -----------------------
+9710 REM Instructions Subroutine
+9720 REM -----------------------
+9730 CLS
+9740 LOCATE 9,8:PRINT"Instructions"
+9750 LOCATE 13,9:PRINT"(Y/y)"
+9760 GOSUB 9930
+9770 IF LEFT$(K$,1)="Y" OR LEFT$(K$,1)="y" GOTO 8030
+9780 RETURN
+9790 REM 
+9800 REM ---------------------
+9810 REM Play again subroutine
+9830 REM ---------------------
+9840 CLS
+9850 LOCATE x,y:PRINT"Another GAME"
+9860 K$="":INPUT"(Y/N)",K$
+9870 IF LEFT$(K$,1)="Y" OR LEFT$(K$,1)="y" THEN 
+9880 GOTO 9999
+9890 REM
+9900 REM -------------------
+9910 REM Key wait subroutine
+9920 REM -------------------
+9930 K$="":K$=INKEY$:IF k$="" THEN 9930
+9940 RETURN
+9999 END
