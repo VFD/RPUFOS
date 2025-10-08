@@ -13,7 +13,7 @@ To do.
 
 ## Other repository
 
-I've created a new repository dedicated to the Exelvision computer (Exelvision).\
+I've created a new repository dedicated to the Exelvision computer [Exelvision](https://github.com/VFD/Exelvision).\
 The goal is to expand the available software library and gather as much source code as possible.\
 Eventually, I aim to develop an experimental AI agent based on this platform.
 
