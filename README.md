@@ -1,6 +1,13 @@
 # Retro Programmers United For Obscure Systems
----
+___
 
+WARNING\
+
+This repo will be change soon.
+- new name : DavidAhlsrc
+- RPUFOS will be reuse for the RPUFOS Group
+
+___
 ## Introduction
 
 ### RPUFOS
