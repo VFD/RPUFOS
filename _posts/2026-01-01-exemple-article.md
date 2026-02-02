@@ -3,7 +3,7 @@ layout: post
 title: "Comment créer un blog avec Jekyll"
 author: Moi
 excerpt: "Blog avec jekyll"
-type: hardware
+type: configuration
 ---
 
 ## Introduction
