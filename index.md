@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-___
 # introduction
 
 Here we are talking exclusively about these Obscure Systems that almost nobody knows about.\
