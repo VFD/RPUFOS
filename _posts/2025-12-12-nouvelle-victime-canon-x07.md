@@ -6,7 +6,7 @@ type: news
 ---
 
 
-# Présentation en vidéo
+## Présentation en vidéo par Olipix
 
 
 <div class="video-container">
@@ -14,6 +14,7 @@ type: news
 </div>
 
 Au boulot :-).
+
 
 
 
