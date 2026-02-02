@@ -139,7 +139,10 @@ pre {
 	text-align: center;
 }
 
-
+.video-container {
+	text-align: center;
+	margin: auto;
+}
 
 /* link to return to blog */
 .blog-return {
