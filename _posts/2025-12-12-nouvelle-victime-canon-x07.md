@@ -8,6 +8,8 @@ type: news
 
 # Présentation en vidéo
 
+
+<div class="video-container">
 <iframe
 	width="560"
 	height="315"
@@ -21,9 +23,10 @@ type: news
 	picture-in-picture;
 	web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
-
+</div>div>
 
 Au boulot :-).
+
 
 
 
