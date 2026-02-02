@@ -55,7 +55,7 @@ header {
 }
 
 .header-container h1 {
-	font-size: 2em;
+	font-size: 3em;
 	margin: 0;
 	position: absolute;     /* independent centering */
 	left: 50%;
