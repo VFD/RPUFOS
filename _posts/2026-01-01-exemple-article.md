@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Comment créer un blog avec Jekyll"
-date: 2023-11-15 10:00:00 +0100
-categories: [tutoriel, web]
-tags: [jekyll, blog, github-pages]
-author: Votre Nom
+author: Moi
+excerpt: "Blog avec jekyll"
+type: hardware
 ---
 
 ## Introduction
