@@ -1,0 +1,25 @@
+# Name of website
+title: Exelvision
+
+description: Retro Programmers United For Obsure Systems (RPUFOS). Study of ancient Obscure Systems that have fallen into oblivion.
+
+# Leave blank for a user site or set "/project-name" for a project site
+url: "https://VFD.github.io"
+
+baseurl: "/RPUFOS"
+
+# Build settings
+timezone: "Europe/Paris"
+
+
+# Conversion
+markdown: kramdown
+
+
+# Exclude
+exclude:
+    - .vscode/
+    - .github/
+
+
+
