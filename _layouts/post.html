@@ -22,15 +22,13 @@ layout: default
   </header>
 -->
 
-<h1 class="post-title">{{ page.title }}</h1>
-<p class="post-meta">
-  <b>
-    <time datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%d/%m/%Y" }}
-    </time>
-  </b>
-</p>
 
+<p class="post-meta">
+  <b> <time datetime="{{ page.date | date_to_xmlschema }}"> {{ page.date | date: "%d/%m/%Y" }} </time> </b>
+  -
+  {{ page.type }}
+</p>
+<h1 class="post-title">{{ page.title }}</h1>
 
   <div class="post-content">
     {{ content }}
