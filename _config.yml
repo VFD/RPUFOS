@@ -7,19 +7,8 @@ description: Retro Programmers United For Obsure Systems (RPUFOS). Study of anci
 url: "https://VFD.github.io"
 baseurl: "/RPUFOS"
 
-# Pagination configuration
-paginate: 10
-paginate_path: "/page:num/"
-
-# Plugins (GitHub Pages supports jekyll-paginate by default)
-plugins:
-  - jekyll-paginate
-
 # Build settings
 timezone: "Europe/Paris"
-
-# Permalinks for posts
-permalink: /:year/:month/:day/:title/
 
 # Conversion
 markdown: kramdown
