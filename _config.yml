@@ -8,6 +8,16 @@ url: "https://VFD.github.io"
 
 baseurl: "/RPUFOS"
 
+
+# Configuration de la pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Plugins (GitHub Pages prend en charge jekyll-paginate par défaut)
+plugins:
+  - jekyll-paginate
+
+
 # Build settings
 timezone: "Europe/Paris"
 
