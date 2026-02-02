@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ page.title }} - {{ site.title }}</title>
+		<meta name="description" content="Exelvision study by RPUFOS.">
+		<meta name="author" content="VincentD">
+		<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+		<!-- Favicon (optional) -->
+		<link rel="icon" href="{{ '/assets/img/RPUFOS_Logo.ico' | relative_url }}" type="image/x-icon">
+	</head>
+	<!-- body -->
+	<body>
+		<!-- Include the header, header includ the nav -->
+		{% include header.html %}
+		<!-- Include content for all -->
+		<main>
+			{{ content }}
+		</main>
+		<!-- Include the footer -->
+		{% include footer.html %}
+	</body>
+</html>
