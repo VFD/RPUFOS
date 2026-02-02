@@ -135,6 +135,12 @@ pre {
 }
 
 
+.post-title {
+	text-align: center;
+}
+
+
+
 /* link to return to blog */
 .blog-return {
   text-align: center;
