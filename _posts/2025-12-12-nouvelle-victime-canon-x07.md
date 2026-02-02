@@ -19,9 +19,18 @@ type: news
 	allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share"
 	referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
+
+{% include youtube.html id="RxzrJLr8kG0?si=RXc0a10n8K-6M8qw" %}
+
+
 </div>div>
 
+
+
+
+
 Au boulot :-).
+
 
 
 
