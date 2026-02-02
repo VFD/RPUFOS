@@ -1,1 +1,149 @@
 
+/* ============================================================
+   File: styles.css
+   Description: Global CSS for all html
+   Author: VincentD
+   Created: November 26, 2025
+   Last Updated: January 30, 2026
+   Version: 1.0
+   ============================================================ */
+
+:root {
+	/* Main palette */
+	--font-family: Arial, sans-serif;
+	--background-color: #f3f3f3;
+	--background-nav: #ffb300;
+	--background-footer: #009ffe;
+	--text-color: #333;
+	--accent-color: #888;
+	--border-color: #ccc;
+	--highlight-bg: #eee;
+	--button-bg: #fff;
+	--button-hover-bg: #f0f0f0;
+
+	/* Dimensions */
+	--logo-size: 96px;
+	--textarea-height: 600px;
+	--radius: 6px;
+	--padding: 10px;
+}
+
+/* Global styles */
+body {
+	font-family: var(--font-family);
+	margin-left: 4em;
+	margin-right: 4em;
+	background: var(--background-color);
+	color: var(--text-color);
+}
+
+header {
+	padding: var(--padding);
+}
+
+.header-container {
+	display: flex;
+	align-items: center;   /* vertically center logo + title */
+	justify-content: space-between; /* logo left, title centered */
+	position: relative;
+}
+
+.header-container .logo {
+	width: var(--logo-size);
+	height: var(--logo-size);
+	object-fit: contain; /* keep proportions */
+}
+
+.header-container h1 {
+	font-size: 2em;
+	margin: 0;
+	position: absolute;     /* independent centering */
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Navigation */
+
+nav {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	background-color: var(--background-nav);
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+	cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+
+/* Footer */
+footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: var(--background-footer);
+	text-align: center;
+	font-size: small;
+	font-weight: bold;
+	border-radius: 0.5em;
+}
+
+footer img {
+	padding-top: 1em;
+	display: block;        /* allows margin auto to work */
+	margin: 0 auto;        /* centers horizontally */
+	width: auto;           /* keep proportions */
+}
+
+
+/* code */
+
+pre {
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 1em;
+	font-weight: bold;
+	border: 0.5em solid #962399;
+	border-radius: 1em;
+	color: #00ffff;
+	background-color: #000;
+}
+
+/* green: 00ec00 */
+/* red: ff0000 */
+
+
+/* link to return to blog */
+.blog-return {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.blog-return a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.blog-return a:hover {
+  background: #e0e0e0;
+}
+
+
+
+/* ==================== EOF ===================== */
