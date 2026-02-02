@@ -10,26 +10,11 @@ type: news
 
 
 <div class="video-container">
-<iframe
-	width="560"
-	height="315"
-	src="https://www.youtube.com/embed/RxzrJLr8kG0?si=RXc0a10n8K-6M8qw"
-	title="YouTube video player"
-	frameborder="0"
-	allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share"
-	referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>
-
-{% include youtube.html id="RxzrJLr8kG0?si=RXc0a10n8K-6M8qw" %}
-
-
-</div>div>
-
-
-
-
+	{% include youtube.html id="RxzrJLr8kG0?si=RXc0a10n8K-6M8qw" %}
+</div>
 
 Au boulot :-).
+
 
 
 
