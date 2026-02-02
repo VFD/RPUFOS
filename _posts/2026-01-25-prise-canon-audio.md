@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Canon X-07 : La prise du magnétophone"
 author: VincentD
 excerpt: "La prise audio du canon X-07 pour barancher un magnétophone."
@@ -38,4 +39,5 @@ to do
 # Test
 
 to do
+
 
