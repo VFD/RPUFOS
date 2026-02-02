@@ -4,7 +4,7 @@ title: Blog
 ---
 
 <div class="blog-container">
-	<h1 style="text-align:center;">Articles de Blog</h1>
+	<h1 style="text-align:center;">Publications</h1>
 	{% for post in site.posts %}
 		<h2> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h2>
 		<p><b>{{ post.date | date: "%d %B %Y" }}</b></p>
