@@ -15,10 +15,14 @@ ___
 # The Obscure Systems
 
 Below is the complete set of machines handled by the RPUFOS group.
+In the order of appearance from the most recent studied to the oldest.
 
 ## Canon X-07
 
 ## Sanyo PHC-25
+
+
+Need to check :
 
 ## Matra Hachette Alice
 
