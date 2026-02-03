@@ -105,18 +105,20 @@ footer img {
 	width: auto;           /* keep proportions */
 }
 
-
-/* code */
-
+/* ---------------------------------------- */
+/* CSS pour code source */
+/* ---------------------------------------- */
 pre {
 	margin-left: 2em;
 	margin-right: 2em;
 	padding: 1em;
 	font-weight: bold;
-	border: 0.25em solid #962399;
+	font-size: 0.9em;
+	border: 0.2em solid #962399;
 	border-radius: 1em;
-	color: #00ffff;
+	color: #00ec00;
 	background-color: #000;
+    font-family: Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /* green: 00ec00 */
