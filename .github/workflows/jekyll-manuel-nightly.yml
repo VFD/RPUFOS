@@ -1,0 +1,66 @@
+name: Build Jekyll (manuel + nightly)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # 1h00 France en hiver
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for changes since last run
+        id: changes
+        run: |
+          git fetch origin main
+          if git diff --quiet origin/main HEAD; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "no_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop if no changes
+        if: steps.changes.outputs.no_changes == 'true'
+        run: echo "Aucun changement détecté, arrêt du workflow."
+
+      - name: Setup Pages
+        if: steps.changes.outputs.no_changes == 'false'
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        if: steps.changes.outputs.no_changes == 'false'
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        if: steps.changes.outputs.no_changes == 'false'
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: needs.build.outputs.no_changes == 'false'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
