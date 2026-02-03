@@ -122,6 +122,9 @@ pre {
 /* green: 00ec00 */
 /* red: ff0000 */
 
+/* ---------------------------------------- */
+/* CSS for POSTS */
+/* ---------------------------------------- */
 
 /*  Title blog without underline  */
 .blog-container a {
@@ -134,7 +137,6 @@ pre {
     text-decoration: none;
 }
 
-
 .post-title {
 	text-align: center;
 }
@@ -142,6 +144,25 @@ pre {
 .video-container {
 	text-align: center;
 	margin: auto;
+}
+
+/* Post nav */
+
+.post-bottom table {
+	width: 90%;
+	margin: auto;
+	border-collapse: collapse;
+	border: none;
+}
+
+.post-bottom th, td {
+	border: none;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+.post-bottom a {
+	text-decoration: none;
 }
 
 /* link to return to blog */
