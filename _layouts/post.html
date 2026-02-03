@@ -17,33 +17,5 @@ layout: default
 		{{ content }}
 	</div>
 </article>
-<!--  -->
-<hr style="width:66%"/>
-<!-- Navigation -->
-<div class="post-bottom">
-	<table>
-		<tr>
-			<td>
-				<div class="prev-post">
-				{% if page.previous.url %}
-					<a href="{{ site.baseurl }}{{ page.previous.url }}">&#128281;<br />{{ page.previous.title }}</a>
-				{% else %}
-					&nbsp;
-				{% endif %}
-				</div>
-			</td>
-			<td>
-				{% include blog-link.html %}
-			</td>
-			<td>
-				<div class="next-post">
-				{% if page.next.url %}
-					<a href="{{ site.baseurl }}{{ page.next.url }}">&#128284;<br />{{ page.next.title }} </a>
-				{% else %}
-					&nbsp;
-				{% endif %}
-				</div>
-			</td>
-		</tr>
-	</table>
-</div>
+
+{% include blog-link.html %}
