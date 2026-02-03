@@ -19,17 +19,25 @@ In the order of appearance from the most recent studied to the oldest.
 
 ## Canon X-07
 
+Repository : Canon X-07
+
 ## Sanyo PHC-25
 
+Repository : PHC-25
 
 ## Micronique Hector / Victor
 
 
-Need to check :
-
 ## Matra Hachette Alice
 
+
+
+Need to check :
+
+
 ## Exelvision
+
+Repository : Exelvision
 
 ## Philips VG5000
 
