@@ -26,6 +26,8 @@ layout: default
 			<td>
 				{% if page.previous.url %}
 					<a class="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">&#128281; {{ page.previous.title }}</a>
+				{% else %}
+					&nbsp;
 				{% endif %}
 			</td>
 			<td>
@@ -34,6 +36,8 @@ layout: default
 			<td>
 				{% if page.next.url %}
 					<a class="next-post" href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &#128284;</a>
+				{% else %}
+					&nbsp;
 				{% endif %}
 			</td>
 		</tr>
