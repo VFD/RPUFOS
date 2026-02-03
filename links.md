@@ -3,10 +3,27 @@ layout: default
 title: Links
 ---
 
+## Association
+
+- [Musée Replay](https://www.museereplay.com)
+
+
+## Chaînes
+
+- [Olipix](https://www.youtube.com/@Olipix)
+- [Olipix EN](https://www.youtube.com/@OlipixRetrotech)
+
+
 ## Groupes
 
-- Facebook
+- [Facebook Olipix Retrogaming](https://www.facebook.com/olipixretrogaming)
+- [Facebook RPUFOS](https://www.facebook.com/groups/rpufos)
+
 - Discord
+
+
+
+
 
 ## Les nouveaux programmes
 
@@ -37,3 +54,15 @@ La page Itch.io avec toutes les participations à télécharger de la 1ère Game
 - [Abandonware magazines](https://www.abandonware-magazines.org)
 - [Abandon-Listing](http://abandonlistings.free.fr/) /!\ http
 
+
+## Emulation
+
+- [Recallbox](https://www.recalbox.com/)
+- [MAME](https://www.mamedev.org/)
+- [EmulationStation](https://emulationstation.org/) - last updated 3/8/2015 !
+
+- [Emu-France](https://www.emu-france.com/)
+- [Planète émulation](https://www.planetemu.net/)
+
+- [RomStation](https://www.romstation.fr/)
+- [Emurom.net](https://www.emurom.net/)

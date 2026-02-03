@@ -1,5 +1,5 @@
 ---
-title: "Micronique Hector HR : Nouveaux jeux, suite"
+title: "Micronique Hector HR : Nouveaux jeux, suite et fin"
 author: VincentD
 excerpt: "Fin de la Game Jam et présentation des nouveaux jeux. Victoria Quest."
 type: News
