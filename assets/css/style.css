@@ -161,6 +161,10 @@ pre {
 	text-decoration: none;
 }
 
+.post-bottom td:nth-child(2) {
+	width: 16em;
+}
+
 .post-bottom a {
 	text-decoration: none;
 }
