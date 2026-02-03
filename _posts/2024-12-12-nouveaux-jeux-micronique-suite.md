@@ -1,7 +1,7 @@
 ---
 title: "Micronique Hector HR : Nouveaux jeux, suite"
 author: VincentD
-excerpt: "Fin de la Game Jam et présentation des nouveaux jeux."
+excerpt: "Fin de la Game Jam et présentation des nouveaux jeux. Picthorix."
 type: News
 ---
 
@@ -17,14 +17,14 @@ Explications dans les vidéos d'Olipix.\
 N'hésitez pas à suivre les liens des vidéos.
 
 
-## Vidéos d'Olipix
+## Vidéo d'Olipix
 
 ### Partie 1
 
 - Picthorix (Sylvain Glaize)
 
 <div class="video-container">
-	{% include youtube.html id="embed/0HOi2E-uPAg?si=60xMP0gkSVZGQ20k" %}
+	{% include youtube.html id="0HOi2E-uPAg?si=60xMP0gkSVZGQ20k" %}
 </div>
 
 

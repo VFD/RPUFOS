@@ -1,7 +1,7 @@
 ---
 title: "Micronique Hector HR : Nouveaux jeux, suite"
 author: VincentD
-excerpt: "Fin de la Game Jam et présentation des nouveaux jeux."
+excerpt: "Fin de la Game Jam et présentation des nouveaux jeux. Parachutor."
 type: News
 ---
 
@@ -17,7 +17,7 @@ Explications dans les vidéos d'Olipix.\
 N'hésitez pas à suivre les liens des vidéos.
 
 
-## Vidéos d'Olipix
+## Vidéo d'Olipix
 
 ### Partie 1
 

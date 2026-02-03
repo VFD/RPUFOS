@@ -1,7 +1,7 @@
 ---
 title: "Micronique Hector HR : Nouveaux jeux"
 author: VincentD
-excerpt: "Fin de la Game Jam et présentation des nouveaux jeux."
+excerpt: "Fin de la Game Jam et présentation des nouveaux jeux. Henon. A fond! A fond! A fond!"
 type: News
 ---
 
