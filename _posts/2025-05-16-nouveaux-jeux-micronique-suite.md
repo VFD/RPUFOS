@@ -1,5 +1,5 @@
 ---
-title: "Micronique Hector HR : Nouveaux jeux"
+title: "Micronique Hector HR : Nouveaux jeux, suite"
 author: VincentD
 excerpt: "Fin de la Game Jam et présentation des nouveaux jeux."
 type: News
@@ -21,18 +21,13 @@ N'hésitez pas à suivre les liens des vidéos.
 
 ### Partie 1
 
-- Henon (Laurent Poulain)
-- A fond! A fond! A fond! (Laurent Poulain, Olipix)
+- Parachutor (Olipix)
 
 <div class="video-container">
-	{% include youtube.html id="lb9CE2fsU0M?si=yW0DfkYrYNyhxm60" %}
+	{% include youtube.html id="FaREb7G8_Fg?si=ObN1vF3gO7gnRLsD" %}
 </div>
 
-### Partie 2
 
-<div class="video-container">
-	{% include youtube.html id="lb9CE2fsU0M?si=T1Vzq6MVZ1dty7r4" %}
-</div>
-
+Et surprise pour la prochaine victime... Un truc bien pourri...
 
 À suivre...

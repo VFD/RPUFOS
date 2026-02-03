@@ -1,5 +1,5 @@
 ---
-title: "Micronique Hector HR : Nouveaux jeux"
+title: "Micronique Hector HR : Nouveaux jeux, suite"
 author: VincentD
 excerpt: "Fin de la Game Jam et présentation des nouveaux jeux."
 type: News
@@ -21,17 +21,10 @@ N'hésitez pas à suivre les liens des vidéos.
 
 ### Partie 1
 
-- Henon (Laurent Poulain)
-- A fond! A fond! A fond! (Laurent Poulain, Olipix)
+- Don't wake Cthulhu (Thomas Conté)
 
 <div class="video-container">
-	{% include youtube.html id="lb9CE2fsU0M?si=yW0DfkYrYNyhxm60" %}
-</div>
-
-### Partie 2
-
-<div class="video-container">
-	{% include youtube.html id="lb9CE2fsU0M?si=T1Vzq6MVZ1dty7r4" %}
+	{% include youtube.html id="HSdXq9daafM?si=fmMUUTimOaF9-_Ex" %}
 </div>
 
 
