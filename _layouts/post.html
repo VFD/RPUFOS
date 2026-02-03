@@ -2,24 +2,44 @@
 layout: default
 ---
 
-<p class="post-meta">
-  &#128197;<b> <time datetime="{{ page.date | date_to_xmlschema }}"> {{ page.date | date: "%d/%m/%Y" }} </time> </b>
-  -
-  <b>{{ page.author }}</b>
-  -
-  <b>{{ page.type }}</b>
-</p>
+<article class="post">
+	<!-- post header -->
+	<header clas="post-header">
 
-<h1 class="post-title">{{ page.title }}</h1>
+	<p class="post-meta">
+	  &#128197;<b> <time datetime="{{ page.date | date_to_xmlschema }}"> {{ page.date | date: "%d/%m/%Y" }} </time> </b> - <b>{{ page.author }}</b> - <b>{{ page.type }}</b>
+	</p>
+	<h1 class="post-title">{{ page.title }}</h1>
+	</header>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+	<div class="post-content">
+		{{ content }}
+	</div>
+</article>
 
 <hr style="width:66%"/>
-
   
-  <!-- Navigation entre les posts -->
+<!-- Navigation -->
+<table style="border-collapse:collapse;border:none;">
+	<tr>
+		<td style="border:none;padding:0.5em;">
+			{% if page.previous.url %}
+				<a class="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+			{% endif %}
+		</td>
+		<td style="border:none;padding:0.5em;">
+			{% include blog-link.html %}
+		</td>
+		<td style="border:none;padding:0.5em;">
+			{% if page.next.url %}
+				<a class="next-post" href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+			{% endif %}
+		</td>
+	</tr>
+</table>
+
+<!-- OLD
+
   <div class="post-navigation">
     {% if page.previous.url %}
       <a class="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
@@ -34,3 +54,5 @@ layout: default
  
 </article>
 <br />
+
+-->
