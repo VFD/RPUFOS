@@ -15,7 +15,8 @@ ___
 # The Obscure Systems
 
 Below is the complete set of machines handled by the RPUFOS group.
-In the order of appearance from the most recent studied to the oldest.
+In the order of appearance from the most recent studied to the oldest.\
+Need to check the order.
 
 ## Canon X-07
 
@@ -27,13 +28,11 @@ Repository : PHC-25
 
 ## Micronique Hector / Victor
 
+No repository.
 
 ## Matra Hachette Alice
 
-
-
-Need to check :
-
+No repository.
 
 ## Exelvision
 
@@ -41,8 +40,11 @@ Repository : Exelvision
 
 ## Philips VG5000
 
+No repository.
+
 ## Mattel Aquarius
 
+No repository.
 
 
-
+___
