@@ -34,6 +34,8 @@ Les principes sont aussi appliqués sur le **Canon X-07**.\
 Les travaux du **Club C7** utilise cela abondament.
 
 
+Autres possibilité selon les systèmes, c'est un chargement en plage mémoire vidéo, puis décompactage.
+
 à compléter.
 
 
@@ -44,6 +46,10 @@ Les travaux du **Club C7** utilise cela abondament.
 - Scroll écran pour jeu en BASIC
 - etc.
 
+Exemple à étudier sur le tirage aléatoire d'un nombre entier entre 0 et 255.
+Voir Club C7.
+
+<hr style="width:66%" />
 
 ## Mise en pratique du LM
 
@@ -64,7 +70,10 @@ vs\
 DATA 11,22,33,44,55,66,77,88,99,AA,BB,CC,DD,EE,FF
 
 14 octets de moins par ligne DATA.\
-On ne s'attarde pas c'est une technique éprouvée.
+On ne s'attarde pas c'est une technique éprouvée.\
+Un test cependant à faire c'est le RESTORE N, N étant une variable contenant le numéro de ligne.
+
+On ne reviendra pas sur cette méthode.
 
 
 ### Technique de la ligne REM
@@ -95,7 +104,7 @@ Prévoir le ORG &hnnnn lors de la compilation.
 
 C'est le principe utilisé par les RPUFOS, issu du programmeur japonais ????.
 
-Pas encore vue sur Canon X-07.
+Pas encore vue sur Canon X-07. C'est donc à tester.
 
 ### Sous programme en REM
 
@@ -121,6 +130,7 @@ Plusieurs paramètres sont possibles, dépand du nombre d'octets réservés.
 	LD (A), &hC003
 	...
 ```
+On poke en &hc003.
 
 En retour.
 
@@ -129,18 +139,19 @@ En retour.
 	...
 ```
 
-On fait un PEEK du &hc003 pour obtenir le résultat.
+On fait un PEEK du &hc003 pour obtenir le résultat, entier [0-255].
 
 
 ### Technique d'écrasement DATA à expérimenter
 
 Plus complexe.\
 Déterminer la position en mémoire d'une ligne REM.\
-Derriere des DATA.\
+Derrière des DATA.\
 Avec le READ, faire un POKE à partir de la ligne REM.
 
-Coder par POKE la fin de programme avant, même si celà semble peu pertinant.\
-NB : à cause d'un éventuel CSAVE.
+Coder par POKE la fin de programme avant ?\
+Même si celà semble peu pertinant.\
+NB : à cause d'un éventuel CSAVE ?
 
 Prévoir un flag P pour éviter le GOSUB 1000.
 
@@ -164,8 +175,7 @@ Le LM vient donc se loger à la place des lignes DATA.
 
 NDR : Pas encore testé, expérimentations à faire.
 
-
-Si ne fonctionne pas, genre le PC ne trouve pas la DATA suivante.
+Si ne fonctionne pas, genre le PC ne trouve pas la DATA suivante car on a écraser les lignes.
 
 Mode inverse.
 
@@ -181,10 +191,10 @@ Mode inverse.
 61000 REM XXXXXXXXXXXXXXXX
 ```
 On part à l'envers.\
-Compliqué car un RESTORE N; avec N variable ne fonctionne pas forcément.
-Sauf si hack peut-être.
+Compliqué car un RESTORE N; avec N variable ne fonctionne pas forcément (faire les tests).
+Sauf si hack peut-être - POKE du numéro de ligne après le restore.
 
-Un poke sur le N du RESTORE ? il faut l'adresse de la ligne.
+Mais il faut l'adresse de la ligne.
 
-La suite au prochain épisode...
 
+La suite au prochain épisode... Chaque système ayant son modus operandi.
