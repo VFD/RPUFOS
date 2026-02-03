@@ -2,7 +2,7 @@
 title: "Canon X-07 : La nouvelle victime des RPUFOS"
 author: VincentD
 excerpt: "La nouvelle victime s'appelle le Canon X-07 de 1983."
-type: news
+type: News
 ---
 
 
@@ -14,6 +14,7 @@ type: news
 </div>
 
 Au boulot :-).
+
 
 
 
