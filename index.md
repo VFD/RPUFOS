@@ -18,6 +18,10 @@ Below is the complete set of machines handled by the RPUFOS group.
 In the order of appearance from the most recent studied to the oldest.\
 Need to check the order.
 
+## Sinclair QL
+
+Repository : Sinclair QL
+
 ## Canon X-07
 
 Repository : Canon X-07
